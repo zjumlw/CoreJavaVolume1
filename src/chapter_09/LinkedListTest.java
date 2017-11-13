@@ -13,7 +13,17 @@ public class LinkedListTest {
 		a.add("Mao");
 		a.add("Ling");
 		a.add("Wei");
+		a.add("abc");
+		//子范围视图
+		List subA = a.subList(0, 2);
 		
+		System.out.println(subA);
+//		subA.clear();	//对子范围的操作会影响整个列表
+		
+		String max = ListMax.max(a);
+		System.out.println(max);
+		
+		System.out.println(a);
 		List<String> b = new LinkedList<>();
 		b.add("xiao");
 		b.add("yang");

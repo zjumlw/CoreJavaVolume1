@@ -26,5 +26,6 @@ public class Test {
 		System.out.println(staff);
 		System.out.println(staff.contains("Mao"));
 		System.out.println(staff.containsAll(subStaff));
+		
 	}
 }
