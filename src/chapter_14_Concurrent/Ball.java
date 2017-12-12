@@ -1,4 +1,4 @@
-package chapter_14;
+package chapter_14_Concurrent;
 
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;

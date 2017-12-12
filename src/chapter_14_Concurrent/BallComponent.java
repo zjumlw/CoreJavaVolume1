@@ -1,4 +1,4 @@
-package chapter_14;
+package chapter_14_Concurrent;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
